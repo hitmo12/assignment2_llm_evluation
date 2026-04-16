@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Assignment 2 — Evaluating Bias, Trustworthiness, and Fairness in
+# Open-Source Large Language Models: A Phishing Vulnerability Perspective
+#
+# Mohit Arun Uchgaonkar | a1963402 | Adelaide University
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Tested on Python 3.10+ (Google Colab environment)
+# ─────────────────────────────────────────────────────────────────────────────
+ 
+# ── API Clients ───────────────────────────────────────────────────────────────
+# Groq API client — used for Meta (LLaMA), OpenAI-OSS, and Qwen models
+groq>=0.11.0
+ 
+# OpenAI-compatible client — used for OpenRouter API calls (NVIDIA, Google, Arcee AI, Deepseek)
+openai>=1.40.0
+ 
+# ── Data Handling ─────────────────────────────────────────────────────────────
+# DataFrame operations, CSV read/write, groupby, crosstab
+pandas>=2.2.0
+ 
+# Numerical arrays and statistical computations
+numpy>=1.26.0
+ 
+# ── Statistical Analysis ──────────────────────────────────────────────────────
+# chi2_contingency, fisher_exact, ttest_ind, f_oneway
+scipy>=1.13.0
+ 
+# ── Visualisation ─────────────────────────────────────────────────────────────
+# All 10 publication-quality figures (bar charts, violin plots, heatmaps)
+matplotlib>=3.8.0
+ 
+# High-level statistical visualisation (heatmaps, violin plots)
+seaborn>=0.13.0
+ 
+# ── Google Colab Utilities ────────────────────────────────────────────────────
+# google-colab is pre-installed in Colab — listed here for documentation only.
+# Do NOT pip install this outside Colab; it is not available on PyPI.
+# Used for: drive.mount(), files.download(), userdata (API key secrets)
+# google-colab  # pre-installed in Colab only
+ 
+# ── Standard Library (no install needed) ─────────────────────────────────────
+# os, re, time, unicodedata, warnings — built into Python
